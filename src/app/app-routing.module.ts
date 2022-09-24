@@ -7,6 +7,7 @@ import { AnunciosComponent } from './pages/anuncios/anuncios.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { AnuncioComponent } from './pages/anuncio/anuncio.component';
+import { EntradaComponent } from './pages/entrada/entrada.component';
 
 const app_routes: Routes = [
     { path: 'home', component: HomeComponent },
@@ -15,6 +16,7 @@ const app_routes: Routes = [
     { path: 'blog', component: BlogComponent },
     { path: 'contacto', component: ContactoComponent },
     { path: 'anuncio', component: AnuncioComponent },
+    { path: 'entrada', component: EntradaComponent },
     { path: '**', pathMatch: 'full', redirectTo: 'home' }
 
 ];
